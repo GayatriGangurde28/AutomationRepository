@@ -31,6 +31,7 @@ public class IsDisplayed {
 		   //check for logout link element is displayed or not
 		  boolean status = logoutLinkElement.isDisplayed();
 		  System.out.println(status);
+		  driver.close();
 		   
 	}
 
